@@ -28,7 +28,9 @@ return new class extends Migration
                 ->onUpdate('cascade');
 
             $table->string('name');
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
+            $table->string('status')->default('pending');
+            $table->tinyInteger('status_code')->default(0);
             $table->timestamps();
         });
     }
