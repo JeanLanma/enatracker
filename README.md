@@ -26,6 +26,6 @@ MySQL
 ## Dependencias
 
 InertiaJS
-Jetstream/Teams
+Jetstream
 laravel-Permission
 TailwindCSS
